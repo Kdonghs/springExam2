@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppContextSameBeanFindTest {
     AnnotationConfigApplicationContext ac= new AnnotationConfigApplicationContext(SameBeanConfig.class);
